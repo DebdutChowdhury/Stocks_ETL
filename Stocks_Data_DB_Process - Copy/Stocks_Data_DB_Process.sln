@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Stocks_Data_DB_Process", "Stocks_Data_DB_Process\Stocks_Data_DB_Process.dtproj", "{A7D51E0C-7516-4C0B-BA47-064877E8FCCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7D51E0C-7516-4C0B-BA47-064877E8FCCA}.Development|Default.ActiveCfg = Development
+		{A7D51E0C-7516-4C0B-BA47-064877E8FCCA}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB5FC702-EDA9-4A72-9ED8-3B08E882BC4E}
+	EndGlobalSection
+EndGlobal
