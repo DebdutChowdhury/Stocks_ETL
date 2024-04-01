@@ -18,7 +18,7 @@ interval = '1d' # 1d, 1m
 for i in ticker:
     query_string = f'https://query1.finance.yahoo.com/v7/finance/download/{i}?period1={period1}&period2={period2}&interval={interval}&events=history&includeAdjustedClose=true'
 
-    destination_file_path = f"C:\\Users\\DEBDUT\\Desktop\\SSIS_Projects\\Stocks_ETL\\Stocks\\{i}.csv"
+    destination_file_path = f"C:\\Users\\DEBDUT\\Desktop\\New folder\\Stocks_ETL\\Stocks\\{i}.csv"
     df = pd.read_csv(query_string)
     df.to_csv(destination_file_path,index=False)
 

@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="All_Stocks"
   DTS:PackageType="5"
-  DTS:VersionBuild="80"
-  DTS:VersionGUID="{D4F24704-F510-416A-A084-9052FD9772A4}">
+  DTS:VersionBuild="90"
+  DTS:VersionGUID="{3BEFB819-D0F4-465D-9A3A-BA67099B7A58}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\SSIS_Projects\Stocks_ETL\Stocks\AAPL.csv">
+          DTS:ConnectionString="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\New folder\Stocks_ETL\Stocks\AAPL.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date"
-              DTS:DTSID="{65547B1C-9DB4-4E24-8812-35B0EA8968A8}"
+              DTS:DTSID="{2BAAF1F0-AFE8-4D77-BA19-4DF45E3D9B0B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Open"
-              DTS:DTSID="{9C1B4185-7FB1-48EC-AD00-2EF0D192D9D4}"
+              DTS:DTSID="{A0BC8B39-6FB6-42E5-B21F-AEE25080FA98}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="High"
-              DTS:DTSID="{52C912E2-DAA3-4C29-93FA-24C9991391FC}"
+              DTS:DTSID="{11217E6A-6EF7-4F7C-8FCF-35BAD04CE210}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Low"
-              DTS:DTSID="{C462483B-203A-4889-9591-B11735C6D79C}"
+              DTS:DTSID="{CC2815EB-E860-4DF9-BF52-1F840CB54136}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Close"
-              DTS:DTSID="{D6FFC39A-0853-4827-92B5-5C1ADD8C6A4A}"
+              DTS:DTSID="{013BA901-69B5-42C2-9129-0C14CE3D4C20}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Adj Close"
-              DTS:DTSID="{6428A213-271E-419E-A074-481DD753D379}"
+              DTS:DTSID="{9D7EB31B-10E6-45F4-9414-DBCEEF136568}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Volume"
-              DTS:DTSID="{8B193980-12F8-4D53-9EBC-71D7999FB04B}"
+              DTS:DTSID="{A6950F69-A2F5-4C6E-BC4D-690D71D6A4F9}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -125,7 +125,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\SSIS_Projects\Stocks_ETL\Stocks\RELIANCE.NS.csv">
+          DTS:ConnectionString="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\New folder\Stocks_ETL\Stocks\RELIANCE.NS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -134,7 +134,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date"
-              DTS:DTSID="{2820DE0F-0471-406F-B839-AC957F3C5FC1}"
+              DTS:DTSID="{28949A58-8577-4035-9F64-6240C2CB6033}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -143,7 +143,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Open"
-              DTS:DTSID="{2DADE2AD-42B2-4657-B14D-53F554C10879}"
+              DTS:DTSID="{9D1AEB3E-8B7C-416A-9B6A-7903258F5F8E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -152,7 +152,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="High"
-              DTS:DTSID="{52C087C8-79DF-4808-9BBF-20721F394188}"
+              DTS:DTSID="{FFC9B3F7-0F56-47D2-B5BC-A6D7216263D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -161,7 +161,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Low"
-              DTS:DTSID="{4143AD2C-DD6C-46C4-8BE6-48B68352E1BB}"
+              DTS:DTSID="{76132710-30CD-4083-8A5F-2098B69509C2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -170,7 +170,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Close"
-              DTS:DTSID="{FC22515F-8D22-456A-A45C-B669020B765E}"
+              DTS:DTSID="{8E5606B2-7800-4102-B506-DE54AD2D8DA4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -179,7 +179,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Adj Close"
-              DTS:DTSID="{9CF05ACA-C567-4B41-B6F1-2ED20A5E9217}"
+              DTS:DTSID="{7978001B-BCC2-4260-A1E5-BF501A8F861E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -188,7 +188,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Volume"
-              DTS:DTSID="{C56E9A77-7713-441D-9F23-15BFBE7220B2}"
+              DTS:DTSID="{3A4D798B-FD9B-4E54-92C2-9D26397AB099}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -208,7 +208,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\SSIS_Projects\Stocks_ETL\Stocks\TATAMTRDVR.BO.csv">
+          DTS:ConnectionString="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\New folder\Stocks_ETL\Stocks\TATAMTRDVR.BO.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -217,7 +217,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date"
-              DTS:DTSID="{207ECF93-A2E4-49AA-A4C4-45672E845148}"
+              DTS:DTSID="{C46D6CDA-A382-48E5-92AD-105ADB52B26A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -226,7 +226,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Open"
-              DTS:DTSID="{73CE5AAE-249D-4B0E-B3B7-48ED1F56203D}"
+              DTS:DTSID="{334CEBA8-177F-4721-82E5-9CE00092A2A0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -235,7 +235,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="High"
-              DTS:DTSID="{91878C22-DEAF-4726-B9A5-56B872F1C7CF}"
+              DTS:DTSID="{B54ECA6F-FDD2-4A6F-AC5A-7E776244B2AB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -244,7 +244,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Low"
-              DTS:DTSID="{DA8E7C09-7876-48C4-BFCC-EAD48A844AFE}"
+              DTS:DTSID="{D3DA39B7-281F-4CA8-8CFE-2CE38B0D9015}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -253,7 +253,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Close"
-              DTS:DTSID="{367FEA8C-94C7-4D1D-9467-801FB5D16AC6}"
+              DTS:DTSID="{C4DA0DD9-CF15-464B-9427-07E340A3F526}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -262,7 +262,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Adj Close"
-              DTS:DTSID="{4BFD9145-9D42-4232-9AF2-9B33507C23B7}"
+              DTS:DTSID="{872AB865-5BF7-42D0-AE80-D4CC58DBA1E5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -271,7 +271,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Volume"
-              DTS:DTSID="{688F4F3D-1671-4CED-9895-987CF55F4C91}"
+              DTS:DTSID="{D5C20811-57D0-46E9-B2FE-BE120B2E98B4}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -291,7 +291,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\SSIS_Projects\Stocks_ETL\Stocks\TATAMOTORS.BO.csv">
+          DTS:ConnectionString="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\New folder\Stocks_ETL\Stocks\TATAMOTORS.BO.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -300,7 +300,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date"
-              DTS:DTSID="{8E56E9FF-9905-4EDA-A370-0A3C9917FAD6}"
+              DTS:DTSID="{901B0E7F-ADC8-467B-8FFF-1706F7EE629A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -309,7 +309,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Open"
-              DTS:DTSID="{6B25AC45-914B-4B48-9F87-2E2950DB9B1A}"
+              DTS:DTSID="{6F9C9E79-7B19-4E63-9077-D4D88DEFC41D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -318,7 +318,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="High"
-              DTS:DTSID="{C28B9CFB-E566-42B4-9029-4D9219FBE818}"
+              DTS:DTSID="{ACD363F2-5C36-4694-9752-8166E23469F7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -327,7 +327,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Low"
-              DTS:DTSID="{09CCD061-A81B-4854-8A20-0CED89070C15}"
+              DTS:DTSID="{EC6BDCD1-F602-40E5-BDC2-77A04602846D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -336,7 +336,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Close"
-              DTS:DTSID="{CA4AA2F1-0F7C-4641-BA1D-5F06594029DB}"
+              DTS:DTSID="{3447AAC1-E141-4F26-8C55-380C5B3E9406}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -345,7 +345,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Adj Close"
-              DTS:DTSID="{D075E0D2-BC14-4E08-9301-8D618AC0009B}"
+              DTS:DTSID="{919C3081-D767-41BF-AB85-C9A97869B32C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -354,7 +354,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Volume"
-              DTS:DTSID="{FE3A17EC-A633-44BE-9962-E20C4D216D59}"
+              DTS:DTSID="{62D50A8E-256D-4571-BD55-FC4C468C9E0D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -6560,7 +6560,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{1ED6EF3C-A69E-459F-AEB4-B2B806771FA9}"
-          SQLTask:SqlStatementSource="truncate table [dbo].[Apple_Stock]&#xA;truncate table [dbo].[Reliance_Stock]&#xA;truncate table [dbo].[Tata_Motors_DVR_Stock]&#xA;truncate table [dbo].[Tata_Motors_Stock]&#xA;drop view [dbo].[VW_Stocks_Data]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="truncate table [dbo].[Apple_Stock]&#xA;truncate table [dbo].[Reliance_Stock]&#xA;truncate table [dbo].[Tata_Motors_DVR_Stock]&#xA;truncate table [dbo].[Tata_Motors_Stock]&#xA;drop view  [dbo].[VW_Stocks_Data]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -6592,7 +6592,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <ExecuteProcessData
-          Executable="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\SSIS_Projects\Stocks_ETL\Stocks_Exe_file\HistoryStocks.exe"
+          Executable="\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\New folder\Stocks_ETL\dist\HistoryStocks.exe"
           RequireFullFileName="False" />
       </DTS:ObjectData>
     </DTS:Executable>

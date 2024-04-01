@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>Stocks_Data_DB_Process</Name>
-    <LastWriteTime>2023-08-20T14:21:16.338192Z</LastWriteTime>
+    <LastWriteTime>2024-03-30T10:05:36.1389291Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>All_Stocks.dtsx</Name>
-      <LastWriteTime>2023-08-20T14:24:44.046293Z</LastWriteTime>
+      <LastWriteTime>2024-03-30T10:10:44.0680065Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

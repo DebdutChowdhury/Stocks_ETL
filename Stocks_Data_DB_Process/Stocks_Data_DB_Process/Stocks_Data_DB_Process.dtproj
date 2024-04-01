@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-NS92VUI</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATY+VYUHab02e62kJwPIU+gAAAAACAAAAAAAQZgAAAAEAACAAAAA+rq/Wj8oNG/MPt9+qCggwV0sfaREwyuFeU3x3UE4HdAAAAAAOgAAAAAIAACAAAAB3q4QEeD9InXhrj4Vy1kty+ylXgMn/BlL8h20i3ii+LJAAAACtpqMu/2slxoug/qrrlrteDgdJS8yNJABdI5u8q5TE1RV9opYspRLJw42r7OcNhzQgy8jfDpfR2vOioyajRc3PGDwZIdOVQEmODpwl/Co2/xorV08V4QF+RIsu0qV2w8i67cqc2R60AmCNNTpO02BKzGexUOsnz1ByDRJCSzGq4ComLqsJWNelTmbXvZZFWPVAAAAAaiLp+7oYxVOdWuGR0TFzJjYO2nk1+RcdtKafUeBPIRaGdWltwZwbfML/UnKgnTb+clCDXFKsVjkf+z6SRpTKzw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5wzXrosV9kmMXleiS2Ws8gAAAAACAAAAAAAQZgAAAAEAACAAAAC/BIsb6F1YEUKh9VUV38OE7Ovxnh5+VRTubHDuWYX1aAAAAAAOgAAAAAIAACAAAABAfba4h5i5UDC5AXZHY2QIq/HzH6XX+zr6FlF99v/B8JAAAADaQ2WMt7RssrI3blvW4mZp0mklu6xh4o+EKFhDlIqFlOuRca7KX6BAWJETCxn4+DbpsDoo5UIWptM+EsM6F7C2OXUs5dqk3E1oxzUWxwEkxL7u/wD2/SnqqNzzTblRTTG67ezo8HyJw3pVD1JtG7s1s18d7vIrA4qcbqhrmmZ+x1eSWMHwLbVllJ1Ip2LqXB1AAAAAZoM/pV+v9wI1jpi05Q2g4wr4rQGwUcHDfJqxcTFcmlWq6uNyZjE1bzINfR4d0sh0Zhe8Kn1dhv2y+CNCgOFWqw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">All_Stocks</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">78</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">88</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{DCBA627A-D11E-4977-BA3E-36FB484CA46E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{BC22E4BF-5D41-41B4-93E4-A1AD67E3F254}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -123,7 +123,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\SSIS_Projects\Stocks_ETL\Stocks\AAPL.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\New folder\Stocks_ETL\Stocks\AAPL.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -468,7 +468,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\SSIS_Projects\Stocks_ETL\Stocks\RELIANCE.NS.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\New folder\Stocks_ETL\Stocks\RELIANCE.NS.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -665,7 +665,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\SSIS_Projects\Stocks_ETL\Stocks\TATAMTRDVR.BO.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\New folder\Stocks_ETL\Stocks\TATAMTRDVR.BO.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -862,7 +862,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\SSIS_Projects\Stocks_ETL\Stocks\TATAMOTORS.BO.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\DESKTOP-01M0TR7\Users\DEBDUT\Desktop\New folder\Stocks_ETL\Stocks\TATAMOTORS.BO.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
